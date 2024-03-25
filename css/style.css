@@ -1,0 +1,208 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.section{
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+.container{
+    max-width: 1136px;
+    margin: 0 auto;
+    padding: 0 32px ;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+    margin-bottom: 36px;
+    align-items: center;
+}
+
+.logo{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    color: #111;
+}
+
+.logo-italic{
+    font-style: italic;
+}
+
+.nav-list{
+    display: flex;
+    gap: 24px;
+}
+
+.nav-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #111;
+}
+
+.hero{
+    margin-bottom: 80px;
+}
+
+.hero-container{
+    width: 100%;
+    background-color: #11111199;
+    padding: 381px 40px 40px 40px;
+    border-radius: 30px;
+}
+
+.hero-title{
+    width: 484px;
+    height: 102px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.03em;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.advant-section{
+    background-color: #1E1823;
+
+}
+
+.advant-container {
+    width: 1102px;
+    padding: 50px 0;
+}
+
+.advant-title {
+
+}
+
+.advant-list {
+    display: flex;
+    gap: 88px;
+}
+
+.advant-item {
+
+}
+
+.advant-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+.advant-text {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #ffffffb3;
+}
+
+.taste-container{
+    width: 100%;
+    /* margin: 0; */
+}
+
+.taste-title {
+    width: 412px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+    margin: 0 auto 28px;
+}
+
+.taste-accent {
+    color: #FD9222;
+}
+
+.taste-text-title{
+    width: 486px;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #111;
+    margin: 0 auto 50px;
+}
+
+.taste-list {
+    display: flex;
+    row-gap: 32px;
+    column-gap: 24px;
+    flex-wrap: wrap;
+
+}
+
+.taste-item-orange {
+    background-color: #FD9222;
+    border-radius: 15px;
+    padding: 28px 23px;
+}
+
+.taste-item-white {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 28px 23px;
+    border: 1px solid #FD9222;
+}
+
+.taste-item-dark {
+    background-color: #1E1823;
+    border-radius: 15px;
+    padding: 28px 23px;
+}
+
+.taste-subtitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #fff;
+    /* margin-bottom: 36px; */
+}
+
+.dark{
+    color: #111;
+}
